@@ -1,0 +1,8 @@
+*{ box-sizing: border-box; }
+
+div { margin-top: 1%; }
+h1 { text-align: center; }
+input { width : 20% ; text-align: center;}
+.event-button { width: 10%; }
+.event-button:hover { color : darkblue; background-color: white;}
+#gains{ background-color: white; border : solid black 1px ; color: darkblue; width: 18.333%;}
