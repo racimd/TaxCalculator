@@ -7,17 +7,20 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>FUT Tax Calculator</h1>
+<h1>FUT Tax Calculator  <img src="coins.jpeg" class="coins"></h1>
 
 <div>veuillez remplir tous les champs </div>
 <br>
-<form method="GET" id="myform">
-<label for="sales">Prix de vente :  </label>
+<form method="POST" id="myform">
+<label for="vente" class="sales-l">Prix de vente : </label>
 <input type="number" id="vente" name="pvente">
 <br>
 <div>
-<label for="gains">Crédits obtenus : </label>
+<label for="gains" class="gains-l">Crédits obtenus : </label>
 <input type="number" id ="gains" name="pgains" class="input-gain" disabled> </div>
+<br>
+<label for="taxe" class="taxe-l">Montant de la taxe : </label>
+<input type="number" id ="taxe" name="ptaxe" class="input-gain" disabled> </div>
 <br>
 <button class="event-button">Soumettre</button>
 
