@@ -19,7 +19,7 @@ h1 {  float: left;  width: 40%; position: relative;}
 input { width : 20% ; text-align: center;}
 .event-button { width: 10%; margin-top: 3%; }
 .event-button:hover { color : darkblue; background-color: white;}
-.input-gain,.input-benef{ background-color: white; border : solid black 1px ; color: darkblue;}
+.input-gain,.input-benef{ background-color: rgb(212, 212, 211); border : solid black 1px ; color: darkblue;}
 li {display: inline; margin-right:1rem; border : 1px solid black; font-size: larger; background-color: grey; padding-right: 1px;}
 a { color : aqua; text-decoration: none;}
 a:hover {color : blue; }
