@@ -25,4 +25,4 @@ a { color : aqua; text-decoration: none;}
 a:hover {color : blue; }
 nav { float : left; margin: 1rem;}
 .c1 {clear: both;}
-header {  border: 1px solid black; overflow: hidden; padding-left: 1rem;}
+header {  border: 1px solid black; overflow: hidden; padding-left: 1rem; border-radius: 4px; background-color: ;}
